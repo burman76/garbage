@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>test_flow</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action.variable1}}","label":"action➛variable1","type":"action","ref":""},{"name":"{{action.variable2}}","label":"action➛variable2","type":"action","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>test flow</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c0b5a418db827300efc65404ce961969</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>test flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="jsb_test git flow" source="x_jsb_test_git_flo">59e42894db827300efc65404ce961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c0b5a418db827300efc65404ce961969</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:26</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c0b5a418db827300efc65404ce961969"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c0b5a418db827300efc65404ce961969"/>
+    <sys_element_mapping action="delete_multiple" query="id=c0b5a418db827300efc65404ce961969"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>c0b5a418db827300efc65404ce961969</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:59</sys_created_on>
+        <sys_id>8ee52058db827300efc65404ce961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969</table>
+        <value>{{action.variable}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable1</field>
+        <id>c0b5a418db827300efc65404ce961969</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:59</sys_created_on>
+        <sys_id>cae52058db827300efc65404ce961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969</table>
+        <value>{{action.variable1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable2</field>
+        <id>c0b5a418db827300efc65404ce961969</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:59</sys_created_on>
+        <sys_id>42e52058db827300efc65404ce961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969</table>
+        <value>{{action.variable2}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=c0b5a418db827300efc65404ce961969^sys_idNOT IN5406a058db827300efc65404ce961918,71e52058db827300efc65404ce961930,9006a058db827300efc65404ce961911,9006a058db827300efc65404ce96191e,9406a058db827300efc65404ce96190c,ec06a058db827300efc65404ce96192d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test flow">c0b5a418db827300efc65404ce961969</action>
+        <cid>bd58e0d4-55fb-4d77-aafd-9356b17d8bee</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>5406a058db827300efc65404ce961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5406a058db827300efc65404ce961918"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test flow">c0b5a418db827300efc65404ce961969</action>
+        <cid>2879b644-ae8b-4cda-bc28-7f066d05ae93</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:58</sys_created_on>
+        <sys_id>71e52058db827300efc65404ce961930</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=71e52058db827300efc65404ce961930"/>
+    <sys_element_mapping action="delete_multiple" query="id=71e52058db827300efc65404ce961930"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>71e52058db827300efc65404ce961930</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:59</sys_created_on>
+        <sys_id>46e52058db827300efc65404ce961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>{{action.variable}}{{action.variable1}}{{action.variable2}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test flow">c0b5a418db827300efc65404ce961969</action>
+        <cid>f32128a7-1582-4223-a57a-5257a3dccb81</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Ask for Approval step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Ask for Approval">a4eb47900b22320085c083eb37673acc</step_type>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>9006a058db827300efc65404ce961911</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9006a058db827300efc65404ce961911"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9006a058db827300efc65404ce961911</document_key>
+        <order>125</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>5c06a058db827300efc65404ce961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+        <value/>
+        <variable display_value="">d3dac4860b333200c438ee6537673a5a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9006a058db827300efc65404ce961911"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>9006a058db827300efc65404ce961911</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>d806a058db827300efc65404ce961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a4eb47900b22320085c083eb37673acc</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test flow">c0b5a418db827300efc65404ce961969</action>
+        <cid>7e9ec96f-9f37-4337-aded-25c14eff5428</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>5</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>9006a058db827300efc65404ce96191e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9006a058db827300efc65404ce96191e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9006a058db827300efc65404ce96191e</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>5006a058db827300efc65404ce96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9006a058db827300efc65404ce96191e</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>9c06a058db827300efc65404ce96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test flow">c0b5a418db827300efc65404ce961969</action>
+        <cid>ca2560ec-8aec-47a2-ac3a-6eae522c914e</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:24</sys_created_on>
+        <sys_id>9406a058db827300efc65404ce96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:24</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9406a058db827300efc65404ce96190c"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test flow">c0b5a418db827300efc65404ce961969</action>
+        <cid>d242edc0-5b40-49c1-a2bc-18a40e0c3256</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Builder step</label>
+        <order>6</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>ec06a058db827300efc65404ce96192d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ec06a058db827300efc65404ce96192d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec06a058db827300efc65404ce96192d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>e806a058db827300efc65404ce961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"","value":""}]}</value>
+        <variable display_value="">89cb2b82b3331300176b051a16a8dc32</variable>
+    </sys_variable_value>
+    <sys_hub_action_input action="delete_multiple" query="model=c0b5a418db827300efc65404ce961969^sys_idNOT IN3de52058db827300efc65404ce961929,7de5a818db827300efc65404ce9619f1,bde5a818db827300efc65404ce9619eb"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable2</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="test flow">c0b5a418db827300efc65404ce961969</model>
+        <model_id>c0b5a418db827300efc65404ce961969</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_c0b5a418db827300efc65404ce961969</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:58</sys_created_on>
+        <sys_id>3de52058db827300efc65404ce961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable1</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="test flow">c0b5a418db827300efc65404ce961969</model>
+        <model_id>c0b5a418db827300efc65404ce961969</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_c0b5a418db827300efc65404ce961969</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:58</sys_created_on>
+        <sys_id>7de5a818db827300efc65404ce9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="test flow">c0b5a418db827300efc65404ce961969</model>
+        <model_id>c0b5a418db827300efc65404ce961969</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_c0b5a418db827300efc65404ce961969</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:58</sys_created_on>
+        <sys_id>bde5a818db827300efc65404ce9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=c0b5a418db827300efc65404ce961969^sys_idNOT IN8ee52058db827300efc65404ce961941,cae52058db827300efc65404ce96193c,cee52058db827300efc65404ce961936"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable2</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable2</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="test flow">c0b5a418db827300efc65404ce961969</model>
+        <model_id>c0b5a418db827300efc65404ce961969</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:59</sys_created_on>
+        <sys_id>8ee52058db827300efc65404ce961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable1</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable1</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="test flow">c0b5a418db827300efc65404ce961969</model>
+        <model_id>c0b5a418db827300efc65404ce961969</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:59</sys_created_on>
+        <sys_id>cae52058db827300efc65404ce96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="test flow">c0b5a418db827300efc65404ce961969</model>
+        <model_id>c0b5a418db827300efc65404ce961969</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:59</sys_created_on>
+        <sys_id>cee52058db827300efc65404ce961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=c0b5a418db827300efc65404ce961969^sys_idNOT IN5406a058db827300efc65404ce961918,71e52058db827300efc65404ce961930,9006a058db827300efc65404ce961911,9006a058db827300efc65404ce96191e,9406a058db827300efc65404ce96190c,ec06a058db827300efc65404ce96192d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test flow">c0b5a418db827300efc65404ce961969</action>
+        <cid>bd58e0d4-55fb-4d77-aafd-9356b17d8bee</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>5406a058db827300efc65404ce961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5406a058db827300efc65404ce961918"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test flow">c0b5a418db827300efc65404ce961969</action>
+        <cid>2879b644-ae8b-4cda-bc28-7f066d05ae93</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:58</sys_created_on>
+        <sys_id>71e52058db827300efc65404ce961930</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=71e52058db827300efc65404ce961930"/>
+    <sys_element_mapping action="delete_multiple" query="id=71e52058db827300efc65404ce961930"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>71e52058db827300efc65404ce961930</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:59</sys_created_on>
+        <sys_id>46e52058db827300efc65404ce961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>{{action.variable}}{{action.variable1}}{{action.variable2}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test flow">c0b5a418db827300efc65404ce961969</action>
+        <cid>f32128a7-1582-4223-a57a-5257a3dccb81</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Ask for Approval step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Ask for Approval">a4eb47900b22320085c083eb37673acc</step_type>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>9006a058db827300efc65404ce961911</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9006a058db827300efc65404ce961911"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9006a058db827300efc65404ce961911</document_key>
+        <order>125</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>5c06a058db827300efc65404ce961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+        <value/>
+        <variable display_value="">d3dac4860b333200c438ee6537673a5a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9006a058db827300efc65404ce961911"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>9006a058db827300efc65404ce961911</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>d806a058db827300efc65404ce961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a4eb47900b22320085c083eb37673acc</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test flow">c0b5a418db827300efc65404ce961969</action>
+        <cid>7e9ec96f-9f37-4337-aded-25c14eff5428</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>5</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>9006a058db827300efc65404ce96191e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9006a058db827300efc65404ce96191e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9006a058db827300efc65404ce96191e</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>5006a058db827300efc65404ce96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9006a058db827300efc65404ce96191e</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>9c06a058db827300efc65404ce96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test flow">c0b5a418db827300efc65404ce961969</action>
+        <cid>ca2560ec-8aec-47a2-ac3a-6eae522c914e</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:24</sys_created_on>
+        <sys_id>9406a058db827300efc65404ce96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:24</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9406a058db827300efc65404ce96190c"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="test flow">c0b5a418db827300efc65404ce961969</action>
+        <cid>d242edc0-5b40-49c1-a2bc-18a40e0c3256</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Builder step</label>
+        <order>6</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>ec06a058db827300efc65404ce96192d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ec06a058db827300efc65404ce96192d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec06a058db827300efc65404ce96192d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:17:25</sys_created_on>
+        <sys_id>e806a058db827300efc65404ce961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:17:25</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"","value":""}]}</value>
+        <variable display_value="">89cb2b82b3331300176b051a16a8dc32</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c0b5a418db827300efc65404ce961969^sys_idNOT IN7de52058db827300efc65404ce961928,bde5a818db827300efc65404ce9619f0,fde52058db827300efc65404ce96192d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable1</element>
+        <help/>
+        <hint/>
+        <label>variable1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c0b5a418db827300efc65404ce961969</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:58</sys_created_on>
+        <sys_id>7de52058db827300efc65404ce961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variable1</sys_name>
+        <sys_package display_value="jsb_test git flow" source="x_jsb_test_git_flo">59e42894db827300efc65404ce961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c0b5a418db827300efc65404ce961969_variable1_en</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>variable</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c0b5a418db827300efc65404ce961969</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:58</sys_created_on>
+        <sys_id>bde5a818db827300efc65404ce9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variable</sys_name>
+        <sys_package display_value="jsb_test git flow" source="x_jsb_test_git_flo">59e42894db827300efc65404ce961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c0b5a418db827300efc65404ce961969_variable_en</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable2</element>
+        <help/>
+        <hint/>
+        <label>variable2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c0b5a418db827300efc65404ce961969</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:58</sys_created_on>
+        <sys_id>fde52058db827300efc65404ce96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variable2</sys_name>
+        <sys_package display_value="jsb_test git flow" source="x_jsb_test_git_flo">59e42894db827300efc65404ce961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c0b5a418db827300efc65404ce961969_variable2_en</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969^sys_idNOT IN0ee52058db827300efc65404ce96193b,82e52058db827300efc65404ce961946,cee52058db827300efc65404ce961940"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>variable</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:59</sys_created_on>
+        <sys_id>0ee52058db827300efc65404ce96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variable</sys_name>
+        <sys_package display_value="jsb_test git flow" source="x_jsb_test_git_flo">59e42894db827300efc65404ce961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969_variable_en</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable2</element>
+        <help/>
+        <hint/>
+        <label>variable2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:59</sys_created_on>
+        <sys_id>82e52058db827300efc65404ce961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variable2</sys_name>
+        <sys_package display_value="jsb_test git flow" source="x_jsb_test_git_flo">59e42894db827300efc65404ce961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969_variable2_en</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable1</element>
+        <help/>
+        <hint/>
+        <label>variable1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2019-06-10 22:16:59</sys_created_on>
+        <sys_id>cee52058db827300efc65404ce961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variable1</sys_name>
+        <sys_package display_value="jsb_test git flow" source="x_jsb_test_git_flo">59e42894db827300efc65404ce961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="jsb_test git flow">59e42894db827300efc65404ce961932</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c0b5a418db827300efc65404ce961969_variable1_en</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2019-06-10 22:16:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
